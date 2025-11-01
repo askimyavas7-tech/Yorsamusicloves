@@ -13,30 +13,30 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Bot and owner info
 OWNER_USERNAME = getenv("OWNER_USERNAME", "II_YOUR_GOJO_ll")
-BOT_USERNAME = getenv("BOT_USERNAME", "yorsamusicbot")
+BOT_USERNAME = getenv("BOT_USERNAME", "")
 BOT_NAME = getenv("BOT_NAME", "yorsa")
-ASSUSERNAME = getenv("ASSUSERNAME", "THEDRXNET")
+ASSUSERNAME = getenv("ASSUSERNAME", "")
 
 # MongoDB
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Limits and IDs
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
-LOGGER_ID = int(getenv("LOGGER_ID", -1002329141957))
-OWNER_ID = int(getenv("OWNER_ID", 7553434931))
+LOGGER_ID = int(getenv("LOGGER_ID", ))
+OWNER_ID = int(getenv("OWNER_ID", 6366762649))
 
 # Heroku
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # Git
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/hkmusic/Yorsamusicloves")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/porn.hub")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/GOJO_SUPPORT_GROUP_II")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+w_H0IbfCUL85ZTM1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "")
 
 # Assistant settings
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
